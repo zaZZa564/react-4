@@ -1,10 +1,11 @@
 import React from "react";
+import InputField from "./components/input";
 
 class App extends React.Component {
   render() {
     return(
       <div>
-        <h1>Header</h1>
+        <InputField/>
       </div>
     );
   }
